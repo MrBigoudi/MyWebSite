@@ -29,13 +29,13 @@ export default {
       <a href="#resume">
         Resume
       </a>
-
-      <div>
-        <a href="#contact">
-          Contacts
-        </a>
-      </div>
     </nav>
+
+    <div>
+      <a href="#contact">
+        Contacts
+      </a>
+    </div>
 
   </header>
 </template>

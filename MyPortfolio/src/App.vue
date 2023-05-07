@@ -5,6 +5,7 @@
   import Projects from "./components/Projects.vue"
   import Resume from "./components/Resume.vue"
   import Contact from "./components/Contact.vue"
+  import Footbar from "./components/Footbar.vue"
 </script>
 
 <template>
@@ -15,5 +16,6 @@
     <Projects />
     <Resume />
     <Contact />
+    <Footbar />
   </main>
 </template>
