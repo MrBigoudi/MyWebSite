@@ -8,5 +8,7 @@ export default {
 </script>
 
 <template>
-  <h1>NavBar</h1>>
+  <section id="resume">
+    <h1>Resume</h1>>
+  </section>
 </template>

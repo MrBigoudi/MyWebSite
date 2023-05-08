@@ -1,16 +1,21 @@
 <script setup>
+  import Navbar from "./components/Navbar.vue"
   import Home from "./components/Home.vue"
-  import NavBar from "./components/NavBar.vue"
+  import About from "./components/About.vue"
+  import Projects from "./components/Projects.vue"
+  import Resume from "./components/Resume.vue"
+  import Contact from "./components/Contact.vue"
+  import Footbar from "./components/Footbar.vue"
 </script>
 
 <template>
-  <header>
-    <div>
-      <NavBar />
-    </div>
-  </header>
-
-  <main>
+  <main className="m-0 h-screen text-white bg-cover bg-japanese-city">
+    <Navbar />
     <Home />
+    <About />
+    <Projects />
+    <Resume />
+    <Contact />
+    <Footbar />
   </main>
 </template>

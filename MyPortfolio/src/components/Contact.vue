@@ -8,7 +8,7 @@ export default {
 </script>
 
 <template>
-    <section id="home">
-      <h1>Home</h1>>
-    </section>
-  </template>
+  <section id="contact">
+    <h1>Contact</h1>>
+  </section>
+</template>
