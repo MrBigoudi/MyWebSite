@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       backgroundImage: {
        'japanese-city': "url('./src/assets/background.jpg')",
+      },
+      fontFamily: {
+        'roboto': ['Roboto', 'sans-serif']
       }
     }
   },

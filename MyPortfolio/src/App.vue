@@ -9,7 +9,7 @@
 </script>
 
 <template>
-  <main className="h-screen text-white bg-cover bg-japanese-city">
+  <main className="m-0 h-screen text-white bg-cover bg-japanese-city">
     <Navbar />
     <Home />
     <About />
