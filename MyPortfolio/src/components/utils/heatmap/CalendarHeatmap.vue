@@ -90,7 +90,7 @@
 							<svg v-if="!vertical" class="vch__external-legend-wrapper" :viewBox="legendViewbox" :height="SQUARE_SIZE - SQUARE_BORDER_SIZE">
 								<g class="vch__legend__wrapper">
 									<rect
-										v-for="(color, index) in curRangeColor"
+										v-for="(color, index) in curRangeColor.slice(1)"
 										:key="index"
 										:rx="round"
 										:ry="round"
