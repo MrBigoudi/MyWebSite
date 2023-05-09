@@ -11,6 +11,14 @@ module.exports = {
       },
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif']
+      },
+      colors: {
+        'dark-leaf-green': '#435955',
+        'dark-brown': '#73584b',
+        'dark-blue-gray': '#4b6673',
+        'light-leaf-green': '#4D982C',
+        'light-coral': '#FF7F50',
+        'dark-coral': '#FF6347',
       }
     }
   },
