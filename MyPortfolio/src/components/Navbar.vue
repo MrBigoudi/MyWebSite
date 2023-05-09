@@ -16,9 +16,9 @@
     <div className="flex justify-around pt-3 pb-3 font-roboto font-bold text-2xl items-center
         fixed top-0 left-0 right-0 z-50 backdrop-filter backdrop-blur-lg">
 
-      <div class="logo" className="ml-10 mr-auto">
+      <div class="logo" className="ml-10 mr-auto text-dark-coral font-bold italic">
         <a href="#about">
-          <img src="@/assets/logoMrBigoudi.png" width="50" height="50" alt="logo MrBigoudi" />
+          Yannis.K
         </a>
       </div>
 

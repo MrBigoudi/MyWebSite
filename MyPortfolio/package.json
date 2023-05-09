@@ -8,14 +8,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@heroicons/vue": "^2.0.17",
-    "vue": "^3.2.47"
+    "axios": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "vue": "^3.2.47",
+    "vue-github-calendar": "^0.1.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.1",
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.23",
+    "sass": "^1.62.1",
     "tailwindcss": "^3.3.2",
-    "vite": "^4.3.4"
+    "tippy.js": "^6.3.7",
+    "vite": "^4.3.4",
+    "vue3-calendar-heatmap": "^2.0.5"
   }
 }
