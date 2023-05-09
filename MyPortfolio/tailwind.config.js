@@ -23,5 +23,8 @@ module.exports = {
     }
   },
   plugins: [],
+  classes: {
+    'inline-block': 'inline-block',
+  },
 }
 

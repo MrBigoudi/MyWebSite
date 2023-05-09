@@ -1,14 +1,21 @@
 <script>
   export default {
+    data(){
+        return {}
+    },
     props:{
       name: "",
-      icon: ""
-    }
-  }
+      icon: "",
+    },
+    mounted() {
+        console.log("Name prop:", this.name);
+        console.log("Icon prop:", this.icon);
+    },
+    };
 </script>
 
 <template>
-    <div className="border-4" >
-        <i :class="icon"></i>
+    <div>
+        <i :class="icon" :title="name" class="inline-block"></i>
     </div>
 </template>

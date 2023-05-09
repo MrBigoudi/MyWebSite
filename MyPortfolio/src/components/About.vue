@@ -45,21 +45,21 @@
       </p>
       <div className="flex flex-col items-center justify-evenly gap-8 p-8">
         <div className="flex items-center justify-evenly gap-16">
-          <ProgrammingLanguageIcon icon="devicon-c-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-cplusplus-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-csharp-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-python-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-lua-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-ocaml-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="c" icon="devicon-c-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="c++" icon="devicon-cplusplus-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="c#" icon="devicon-csharp-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="python" icon="devicon-python-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="lua" icon="devicon-lua-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="ocaml" icon="devicon-ocaml-plain" className="text-8xl" />
         </div>
         <div className="flex items-center justify-evenly gap-16">
-          <ProgrammingLanguageIcon icon="devicon-html5-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-css3-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-javascript-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-vuejs-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-react-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-java-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-tailwindcss-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="html" icon="devicon-html5-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="css" icon="devicon-css3-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="javascript" icon="devicon-javascript-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="vuejs" icon="devicon-vuejs-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="react" icon="devicon-react-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="java" icon="devicon-java-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="tailwind css" icon="devicon-tailwindcss-plain" className="text-8xl" />
         </div>
       </div>
     </div>
@@ -70,21 +70,21 @@
       </p>
       <div className="flex flex-col items-center justify-evenly gap-8 p-8">
         <div className="flex items-center justify-evenly gap-16">
-          <ProgrammingLanguageIcon icon="devicon-linux-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-bash-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-vim-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-markdown-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-latex-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-vscode-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-github-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="linux" icon="devicon-linux-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="bash" icon="devicon-bash-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="vim" icon="devicon-vim-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="markdown" icon="devicon-markdown-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="latex" icon="devicon-latex-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="vscode" icon="devicon-vscode-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="github" icon="devicon-github-plain" className="text-8xl" />
         </div>
         <div className="flex items-center justify-evenly gap-16">
-          <ProgrammingLanguageIcon icon="devicon-blender-original" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-unity-original" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-godot-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-opengl-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-sdl-plain" className="text-8xl" />
-          <ProgrammingLanguageIcon icon="devicon-qt-original" className="text-8xl" />
+          <ProgrammingLanguageIcon name="blender" icon="devicon-blender-original" className="text-8xl" />
+          <ProgrammingLanguageIcon name="unity" icon="devicon-unity-original" className="text-8xl" />
+          <ProgrammingLanguageIcon name="godot" icon="devicon-godot-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="opengl" icon="devicon-opengl-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="sdl" icon="devicon-sdl-plain" className="text-8xl" />
+          <ProgrammingLanguageIcon name="qt" icon="devicon-qt-original" className="text-8xl" />
         </div>
       </div>
     </div>
