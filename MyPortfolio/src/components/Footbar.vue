@@ -1,41 +1,52 @@
 <script>
-export default {
-  data() {
-    return {
-        github: "https://github.com/MrBigoudi",
-        twitter: "https://twitter.com/home",
-        insta: "https://www.instagram.com/mrbigoudi/",
-        twitch: "https://www.twitch.tv/misterbigoudi",
+  import GithubIcon from '@/components/icons/GithubIcon.vue'
+  import TwitterIcon from '@/components/icons/TwitterIcon.vue'
+  import InstaIcon from '@/components/icons/InstaIcon.vue'
+  import TwitchIcon from '@/components/icons/TwitchIcon.vue'
+  export default {
+    data() {
+      return {
+          github: "https://github.com/MrBigoudi",
+          twitter: "https://twitter.com/MrBigoudi",
+          insta: "https://www.instagram.com/mrbigoudi/",
+          twitch: "https://www.twitch.tv/misterbigoudi",
+      }
+    },
+    components: {
+      GithubIcon,
+      TwitterIcon,
+      InstaIcon,
+      TwitchIcon,
     }
   }
-}
 </script>
 
 <template>
-  <header id="footbar">
+  <footer className="bottom-0 w-full flex justify-between items-center 
+    py-5 bg-black italic">
 
-    <div class="name">
-      Made by me
+    <div className="ml-10">
+      Designed and Developed by Yannis Kedadry
     </div>
 
-    <div class="copyrights">
-        Copyrights
+    <div className="">
+        Copyright &copy; 2023 <span className="not-italic">YK</span>
     </div>
 
-    <nav>
+    <nav className="self-end flex items-center mr-10 gap-4">
       <a :href="github">
-        Github logo
+        <GithubIcon />
       </a>
       <a :href="twitter">
-        Twitter logo
+        <TwitterIcon />
       </a>
       <a :href="insta">
-        Insta logo
+        <InstaIcon />
       </a>
       <a :href="twitch">
-        Twitch logo
+        <TwitchIcon />
       </a>
     </nav>
 
-  </header>
+  </footer>
 </template>

@@ -17,7 +17,7 @@
         fixed top-0 left-0 right-0 z-50 backdrop-filter backdrop-blur-lg">
 
       <div class="logo" className="ml-10 mr-auto text-dark-coral font-bold italic">
-        <a href="#about">
+        <a href="#home" className="scroll-smooth transition ease-in-out duration-1000">
           Yannis.K
         </a>
       </div>
