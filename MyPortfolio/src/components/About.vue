@@ -44,7 +44,7 @@
       List of small rectangles containing the tools I use (vscode / github / linux / blender / unity / godot / trello)
     </div>
 
-    <div>
+    <div className="w-3/4 mt-12">
       <GitHubHeatmap />
     </div>
   </section>

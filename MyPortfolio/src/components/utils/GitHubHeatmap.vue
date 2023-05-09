@@ -1,23 +1,41 @@
 <template>
-    <div class="heatmap">
-        <Vue3CalendarHeatmap :values="heatmapData" />
+    <div class="heatmap" className="pl-4 pr-4">
+        <CalendarHeatmap :tooltip="false" :values="heatmapData" :end-date="heatmapEndDate" :range-color="heatmapColors" :max="heatmapMaxCount"/>
   </div>
 </template>
 
 <script>
-    import Vue3CalendarHeatmap from 'vue3-calendar-heatmap';
+    import CalendarHeatmap from './heatmap/CalendarHeatmap.vue';
+    import { fetchHeatmapData } from './github.js'
 
     export default {
         name: 'GitHubHeatmap',
         components: {
-            Vue3CalendarHeatmap
+            CalendarHeatmap
         },
         data() {
             return {
-                heatmapData: [{ date: "2021-01-01", count: 0 }],
-                heatmapColors: ['#3b1610', '#67271e', '#973a2c', '#ca4e39', '#ff6347'],
+                heatmapData: [],
+                heatmapEndDate: "",
+                heatmapColors: ['#FFFFFF', '#C4C4C4', '#9f7b7a', '#bb7672', '#d47067', '#eb6a59', '#ff6347'],
+                heatmapMaxCount: 6,
                 username: "mrbigoudi",
             };
+        },
+        methods: {
+            getNow: function() {
+                const today = new Date();
+                this.heatmapEndDate= today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+            }
+        },
+
+        created(){
+            this.getNow();
+        },
+
+        async mounted(){
+            this.heatmapData = await fetchHeatmapData(this.username);
         }
+
     };
 </script>
