@@ -8,8 +8,8 @@
       icon: "",
     },
     mounted() {
-        console.log("Name prop:", this.name);
-        console.log("Icon prop:", this.icon);
+        // console.log("Name prop:", this.name);
+        // console.log("Icon prop:", this.icon);
     },
     };
 </script>
