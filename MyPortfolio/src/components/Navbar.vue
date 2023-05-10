@@ -20,7 +20,7 @@
 
 <template>
   <header class="flex flex-col md:flex-row items-center
-    font-roboto h-16 font-bold text-2xl 
+    font-roboto py-2 font-bold text-2xl 
     fixed top-0 left-0 right-0 z-50 
     backdrop-filter backdrop-blur-lg">
     
@@ -43,8 +43,8 @@
       <i class="material-icons text-6xl">menu</i>
     </button>
 
-    <nav v-if="showMenu" class="flex flex-col justify-evenly items-center gap-2 w-full 
-      text-center z-1" :class="{'backdrop-filter backdrop-blur-lg': showMenu}">
+    <nav v-if="showMenu" class="md:hidden flex flex-col justify-evenly items-center gap-3 w-full 
+      text-center z-1 backdrop-filter backdrop-blur-lg">
       <Icon name="Home" link="#home" icon="home" 
         class="w-full px-0"/>
       <Icon name="About" link="#about" icon="person"
