@@ -22,17 +22,17 @@
 </script>
 
 <template>
-  <footer className="bottom-0 w-full flex justify-between items-center py-5 bg-black italic">
+  <footer class="bottom-0 w-full flex justify-between items-center py-5 bg-black italic">
 
-    <div className="ml-10">
+    <div class="ml-10">
       Designed and Developed <br class="md:hidden"/> by Yannis Kedadry
     </div>
 
-    <div className="">
-        Copyright &copy; 2023 <span className="not-italic">YK</span>
+    <div class="">
+        Copyright &copy; 2023 <span class="not-italic">YK</span>
     </div>
 
-    <nav className="flex items-center mr-10 gap-4">
+    <nav class="flex items-center mr-10 gap-4">
       <a :href="github">
         <GithubIcon />
       </a>
