@@ -29,7 +29,7 @@
     fixed top-0 left-0 right-0 z-50 
     backdrop-filter backdrop-blur-lg">
     
-    <div class="ml-10 text-dark-coral font-bold italic hidden md:block">
+    <div class="ml-10 text-dark-coral font-bold italic hidden md:block mr-4">
       <a href="#home" @click="toogleUpdateSize" class="scroll-smooth transition ease-in-out duration-1000">
         Yannis.K
       </a>

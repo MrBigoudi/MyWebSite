@@ -36,7 +36,8 @@
 </script>
 
 <template>
-  <main class="m-0 h-screen text-white bg-cover bg-japanese-city bg-fixed bg-center overflow-y-auto">
+  <main class="flex flex-col m-0 h-screen text-white overflow-y-auto
+        bg-japanese-city bg-cover bg-center bg-no-repeat">
     <Navbar @update-height="getNavBarHeight" />
     <Home :nav-height="navHeight"/>
     <About />
