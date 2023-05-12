@@ -12,6 +12,12 @@ module.exports = {
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif']
       },
+      fontSize: {
+        '10xl': '10rem',
+      },
+      margin: {
+        '128': '32rem',
+      },
       colors: {
         'dark-leaf-green': '#435955',
         'dark-brown': '#73584b',

@@ -3,33 +3,49 @@ export default {
   data() {
     return {
     }
-  }
+  },
+  props:{
+    navHeight: "0px",
+  },
 }
 </script>
 
 <template>
-    <section id="home" className="pt-72">
-      <div className="flex items-center w-full pl-72">
-        <div className="flex flex-col items-start pr-72">
-          <div className="text-8xl font-bold mb-7">
-            Who am <span className="text-light-coral">I</span> ?
-          </div>
-          <div className="text-3xl text-justify">
-            <p className="text-6xl mb-5">My name is <span className="text-light-coral font-bold">Yannis KEDADRY</span></p>
-            <p className="mb-2.5">I'm a student from the computer science department<br/> 
-              of the <strong className="text-dark-coral font-bold">École Normale Supérieure</strong> of Paris majoring<br/>
-              in <strong className="text-dark-coral font-bold">Computer Graphics</strong>.</p>
-            <p>Apart from programming I enjoy playing and streaming<br/>
-              <strong className="text-dark-coral font-bold">video games</strong>, 
-              doing a lot of <strong className="text-dark-coral font-bold">sport</strong> and, 
-              as a <strong className="text-dark-coral font-bold">vegan</strong>, I<br/>
-              especially love <strong className="text-dark-coral font-bold">nature</strong> and going outside for 
-              <strong className="text-dark-coral font-bold">walks</strong></p>
-          </div>
+  <section id="home" class="md:pt-48 pt-24" :style="{ marginTop: navHeight }">
+
+    <div class="flex md:flex-row flex-col-reverse justify-center md:gap-32 items-center w-full">
+
+
+      <div class="flex flex-col items-start md:w-1/2 w-2/3 
+         mt-24 md:pr-12">
+
+        <div class="md:text-8xl text-7xl font-bold md:mb-48 mb-16 self-center">
+          Who am <span class="text-light-coral">I</span> ?
         </div>
-        <div className="mr-72">
-          <img src="@/assets/homeImage.png" width="300" height="300" alt="picture of myself" />
+
+        <p class="md:text-6xl text-5xl md:mb-24 mb-8">My name is <span class="text-light-coral font-bold">Yannis KEDADRY</span>,</p>
+
+        <div class="md:text-4xl text-justify text-3xl">
+          <p class="md:mb-12 mb-6">I'm a student from the computer science department
+            of the <strong class="text-dark-coral font-bold">École Normale Supérieure</strong> of Paris majoring
+            in <strong class="text-dark-coral font-bold">Computer Graphics</strong>.</p>
+          <p>Apart from programming I enjoy playing and streaming
+            <strong class="text-dark-coral font-bold">video games</strong>, 
+            doing a lot of <strong class="text-dark-coral font-bold">sport</strong> and, 
+            as a <strong class="text-dark-coral font-bold">vegan</strong>,
+            especially love <strong class="text-dark-coral font-bold">nature</strong> and going outside for 
+            <strong class="text-dark-coral font-bold">walks</strong></p>
         </div>
+
       </div>
-    </section>
-  </template>
+
+
+      <div class="w-1/2 md:w-1/4 flex justify-center">
+        <img src="@/assets/homeImage.png" class="h-auto w-100" alt="picture of myself" />
+      </div>
+
+
+    </div>
+
+  </section>
+</template>
