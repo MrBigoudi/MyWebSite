@@ -11,22 +11,22 @@ export default {
 </script>
 
 <template>
-  <section id="home" class="pt-24" :style="{ marginTop: navHeight }">
+  <section id="home" class="md:pt-48 pt-24" :style="{ marginTop: navHeight }">
 
-    <div class="flex md:flex-row flex-col-reverse justify-center md:gap-24 items-center w-full">
+    <div class="flex md:flex-row flex-col-reverse justify-center md:gap-32 items-center w-full">
 
 
-      <div class="flex flex-col items-start w-1/2 
-         mt-24 md:mt-0">
+      <div class="flex flex-col items-start md:w-1/2 w-2/3 
+         mt-24 md:pr-12">
 
-        <div class="md:text-8xl text-6xl font-bold md:mb-7 mb-3">
+        <div class="md:text-8xl text-7xl font-bold md:mb-48 mb-16 self-center">
           Who am <span class="text-light-coral">I</span> ?
         </div>
 
-        <p class="md:text-6xl text-4xl mb-5">My name is <span class="text-light-coral font-bold">Yannis KEDADRY</span></p>
+        <p class="md:text-6xl text-5xl md:mb-24 mb-8">My name is <span class="text-light-coral font-bold">Yannis KEDADRY</span>,</p>
 
-        <div class="md:text-3xl text-justify text-2xl">
-          <p class="mb-2.5">I'm a student from the computer science department
+        <div class="md:text-4xl text-justify text-3xl">
+          <p class="md:mb-12 mb-6">I'm a student from the computer science department
             of the <strong class="text-dark-coral font-bold">École Normale Supérieure</strong> of Paris majoring
             in <strong class="text-dark-coral font-bold">Computer Graphics</strong>.</p>
           <p>Apart from programming I enjoy playing and streaming
