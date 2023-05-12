@@ -2,10 +2,10 @@
 
 ## Navbar
 
-- [ ] change mt when clicking hrefs
+- [ ] change mt when clicking hrefs (use mb instead of mt)
 
 ## Home
 
 - [ ] fix mt when going back and forth md
-- [ ] make text responsive
-- [ ] make picture responsive
+- [x] make text responsive
+- [x] make picture responsive

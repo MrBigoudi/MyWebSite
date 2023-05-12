@@ -34,8 +34,9 @@
 
 <template>
   <a :id="name" :href="link" @click.prevent="goTo" class="flex justify-center scroll-smooth h-full items-center px-4 
-    focus:outline-none active:bg-dark-coral focus:bg-dark-coral">
-    <i class="material-icons">{{ icon }}</i>
+    focus:outline-none active:bg-dark-coral focus:bg-dark-coral
+    text-light-coral active:text-white focus:text-white">
+    <i class="text-white material-icons">{{ icon }}</i>
     <p class="px-2">{{ name }}</p>
   </a>
 </template>

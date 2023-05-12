@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: {
        'japanese-city': "url('./src/assets/background.jpg')",
+       'projects-canvas': "url('./src/assets/projects/canvas.png')",
       },
       fontFamily: {
         'roboto': ['Roboto', 'sans-serif']
