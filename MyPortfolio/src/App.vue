@@ -41,7 +41,7 @@
     <Navbar @update-height="getNavBarHeight" />
     <Home :nav-height="navHeight"/>
     <About />
-    <Projects />
+    <Projects class="md:mb-48 mb-32" />
     <Resume />
     <Contact />
     <Footbar />
