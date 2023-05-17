@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-  <section id="home" class="md:pt-48 pt-24" :style="{ marginTop: navHeight }">
+  <section id="home" class="md:pt-48 pt-24 md:mb-128 mb-48" :style="{ marginTop: navHeight }">
 
     <div class="flex md:flex-row flex-col-reverse justify-center md:gap-32 items-center w-full">
 

@@ -1,5 +1,5 @@
 <script>
-  import GitHubHeatmap from '@/components/utils/GitHubHeatmap.vue';
+  import GitHubHeatmap from '@/components/utils/heatmap/GitHubHeatmap.vue';
   import ProgrammingLanguageIcon from './icons/ProgrammingLanguageIcon.vue';
 
   export default {
@@ -15,8 +15,8 @@
 </script>
 
 <template>
-  <section id="about" className="flex flex-col items-center">
-    <div className="flex flex-col items-center justify-evenly md:mt-128 mt-48">
+  <section id="about" className="flex flex-col items-center md:mb-128 mb-48">
+    <div className="flex flex-col items-center justify-evenly">
       <p className="text-6xl md:mb-2.5 mb-16">
         Professional <strong className="text-light-coral font-bold">Skillset</strong>
       </p>

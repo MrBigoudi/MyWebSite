@@ -5,7 +5,7 @@
 </template>
 
 <script>
-    import CalendarHeatmap from './heatmap/CalendarHeatmap.vue';
+    import CalendarHeatmap from './CalendarHeatmap.vue';
     import { fetchHeatmapData } from './github.js'
 
     export default {
