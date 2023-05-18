@@ -17,13 +17,13 @@
 
     <div class="flex flex-col items-center"> <!-- ongoing project -->
 
-      <h1 class=""> <!-- title of the container -->
+      <h1 class="text-6xl md:mb-12 mb-16"> <!-- title of the container -->
         <span class="text-light-coral">Ongoing</span> projects
       </h1>
 
-      <div class="flex flex-row justify-evenly"> <!-- list of projects -->
+      <div class="flex flex-row justify-evenly gap-5 w-full"> <!-- list of projects -->
         <Project name="engine" link="" desc="" image="" alter=""/>
-        <Project name="volcanoes" link="" desc="" image="/src/assets/projects/volcanoes.png" alter="preview of the volcanoe simulation"/>
+        <Project name="volcanoes" link="" desc="" image="/src/assets/projects/projectVolcanoes.png" alter="preview of the volcanoe simulation"/>
         <Project name="myWebSite" link="" desc="" image="" alter=""/>
       </div>
 
@@ -33,7 +33,7 @@
 
     <div class="flex flex-col items-center"> <!-- finished projects -->
 
-      <h1 class=""> <!-- title of the container -->
+      <h1 class="text-6xl md:mb-12 mb-16"> <!-- title of the container -->
         <span class="text-light-coral">Finished</span> projects
       </h1>
 
