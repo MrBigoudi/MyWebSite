@@ -1,36 +1,25 @@
 <script>
-  import pdfjs from 'pdfjs-dist'
-
   export default {
-    mounted() {
-      const container = this.$refs.pdfViewer
-      const url = '@/assets/pdfs/resume.pdf'
-      
-      pdfjs.getDocument(url).promise.then(pdf => {
-        pdf.getPage(1).then(page => {
-          const scale = 1.5
-          const viewport = page.getViewport({scale: scale})
-          const canvas = document.createElement('canvas')
-          const context = canvas.getContext('2d')
-          canvas.height = viewport.height
-          canvas.width = viewport.width
+    data(){
+      return {
 
-          const renderContext = {
-            canvasContext: context,
-            viewport: viewport
-          }
-
-          page.render(renderContext).promise.then(() => {
-            container.appendChild(canvas)
-          })
-        })
-      })
+      }
     }
   }
 </script>
 
 <template>
-  <section id="resume">
-    <div ref="pdfViewer"></div>
+  <section id="resume" class="flex flex-col justify-center items-center">
+    <p className="text-6xl text-center md:mb-4 mb-8">
+        My <strong className="text-light-coral font-bold">Resume</strong>
+    </p>
+    <p className="text-2xl text-center md:mb-8 mb-16">
+      (Download the
+      <a href="/pdfs/resume.pdf" download 
+        class="text-dark-coral italic hover:text-light-coral hover:underline active:underline active:text-light-coral">
+      pdf</a>
+      version)
+    </p>
+    <img src="@/assets/resume.png" class="h-auto w-4/5 rounded-3xl" alt="my resume" />
   </section>
 </template>
