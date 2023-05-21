@@ -1,13 +1,32 @@
 <script>
-    export default {
-    name: 'TwitterIcon'
+export default {
+  data() {
+    return{
     }
+  },
+  props: {
+    name: {
+      default: 'TwitterIcon',
+      type: String
+    },
+    dim: {
+      default: 5,
+      type: Number
+    }
+  },
+  methods: {
+    getDim() {
+      const cl = 'h-' + this.dim + ' w-' + this.dim;
+      return cl;
+    }
+  }
+};
 </script>
 
 <template>
     <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="h-5 w-5"
+  :class="getDim()"
   fill="currentColor"
   viewBox="0 0 24 24">
   <path

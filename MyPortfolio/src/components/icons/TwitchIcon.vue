@@ -1,13 +1,32 @@
 <script>
     export default {
-    name: 'TwitchIcon'
+      data(){
+        return {
+        }
+      },
+      props: {
+        name: {
+          type: String,
+          default: 'TwitchIcon',
+        },
+        dim: {
+          type: Number,
+          default: 5,
+        },
+      },
+      methods:{
+        getDim(){
+          return "h-"+this.dim+" w-"+this.dim;
+        }
+      }
+      
     }
 </script>
 
 <template>
     <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="h-5 w-5"
+  :class="getDim()"
   fill="currentColor"
   viewBox="0 0 24 24">
   <path

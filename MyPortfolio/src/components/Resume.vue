@@ -9,7 +9,7 @@
 </script>
 
 <template>
-  <section id="resume" class="flex flex-col justify-center items-center">
+  <section id="resume" class="flex flex-col justify-center items-center mb-48">
     <p className="text-6xl text-center md:mb-4 mb-8">
         My <strong className="text-light-coral font-bold">Resume</strong>
     </p>
