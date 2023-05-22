@@ -1,8 +1,8 @@
 <script>
-  import GithubIcon from '@/components/icons/GithubIcon.vue'
-  import TwitterIcon from '@/components/icons/TwitterIcon.vue'
-  import InstaIcon from '@/components/icons/InstaIcon.vue'
-  import TwitchIcon from '@/components/icons/TwitchIcon.vue'
+  import GithubIcon from '@/components/icons/linksIcon/GithubIcon.vue'
+  import TwitterIcon from '@/components/icons/linksIcon/TwitterIcon.vue'
+  import InstaIcon from '@/components/icons/linksIcon/InstaIcon.vue'
+  import TwitchIcon from '@/components/icons/linksIcon/TwitchIcon.vue'
   export default {
     data() {
       return {

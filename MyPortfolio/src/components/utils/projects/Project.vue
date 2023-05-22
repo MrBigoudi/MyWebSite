@@ -1,5 +1,5 @@
 <script>
-    import GithubIcon from '@/components/icons/GithubIcon.vue'
+    import GithubIcon from '@/components/icons/linksIcon/GithubIcon.vue'
 
     export default{
         data(){

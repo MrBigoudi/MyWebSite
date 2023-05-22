@@ -2,31 +2,16 @@
     export default {
       data(){
         return {
-        }
-      },
-      props: {
-        name: {
-          type: String,
-          default: 'InstaIcon',
-        },
-        dim: {
-          type: Number,
-          default: 5,
-        },
-      },
-      methods:{
-        getDim(){
-          return "h-"+this.dim+" w-"+this.dim;
+          name: "InstaIconBig"
         }
       }
-      
     }
 </script>
 
 <template>
     <svg
   xmlns="http://www.w3.org/2000/svg"
-  :class="getDim()"
+  class="h-12 w-12"
   fill="currentColor"
   viewBox="0 0 24 24">
   <path

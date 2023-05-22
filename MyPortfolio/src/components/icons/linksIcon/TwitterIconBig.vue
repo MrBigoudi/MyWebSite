@@ -1,32 +1,17 @@
 <script>
-export default {
-  data() {
-    return{
+    export default {
+      data(){
+        return {
+          name: "TwitterIconBig"
+        }
+      }
     }
-  },
-  props: {
-    name: {
-      default: 'TwitterIcon',
-      type: String
-    },
-    dim: {
-      default: 5,
-      type: Number
-    }
-  },
-  methods: {
-    getDim() {
-      const cl = 'h-' + this.dim + ' w-' + this.dim;
-      return cl;
-    }
-  }
-};
 </script>
 
 <template>
     <svg
   xmlns="http://www.w3.org/2000/svg"
-  :class="getDim()"
+  class="h-12 w-12"
   fill="currentColor"
   viewBox="0 0 24 24">
   <path
