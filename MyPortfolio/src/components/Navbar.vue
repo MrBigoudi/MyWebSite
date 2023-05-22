@@ -1,10 +1,12 @@
 <script>
   import Icon from "@/components/icons/Icon.vue";
+  import {ref, watch} from 'vue'
 
   export default {
     data() {
       return {
         showMenu: false,
+        navbarTextIsWhite: false,
       }
     },
     components:{
@@ -19,6 +21,38 @@
       toogleUpdateSize(){
         this.$emit('updateHeight')
       }
+    },
+    mounted(){
+      // TODO: Fix that shit !!!
+      const navbarBackgrounds = ref(null);
+
+      const update = () => {
+        if (navbarBackgrounds != null) {
+          const navbarRect = document.getElementById('mainNavBar').getBoundingClientRect();
+          let updt = false;
+
+          // console.log(navbarBackgrounds.value)
+          // for each backgrounds
+          navbarBackgrounds.value.forEach(bg => {
+            // find its dimensions
+            const navbarBackgroundRect = bg.getBoundingClientRect();
+            const navbarOffset = Math.floor(navbarBackgroundRect.top - navbarRect.bottom);
+            // console.log(navbarOffset);
+
+            // check if intersection
+            if(navbarOffset <= 0){
+              updt = true;
+            }
+          });
+
+          this.navbarTextIsWhite = updt;
+        }
+      };
+
+      this.$nextTick(() => {
+        navbarBackgrounds.value = document.querySelectorAll('.bg-dark-coral, .bg-light-coral');
+        update();
+      });
     }
   }
 </script>
@@ -27,9 +61,10 @@
   <header id="mainNavBar" class="flex flex-col md:flex-row items-center md:h-16
     font-roboto font-bold text-2xl 
     fixed top-0 left-0 right-0 z-50 
-    backdrop-filter backdrop-blur-lg">
+    backdrop-filter backdrop-blur-lg" :class="navbarTextIsWhite ? `text-white` : `text-light-coral`">
     
-    <div class="ml-10 text-dark-coral font-bold italic hidden md:block mr-4">
+    <div class="ml-10 font-bold italic hidden md:block mr-4" 
+      :class="navbarTextIsWhite ? `text-white` : `text-dark-coral`">
       <a href="#home" @click="toogleUpdateSize" class="scroll-smooth transition ease-in-out duration-1000">
         Yannis.K
       </a>

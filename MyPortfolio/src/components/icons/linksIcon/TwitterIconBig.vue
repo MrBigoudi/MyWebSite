@@ -1,13 +1,17 @@
 <script>
     export default {
-    name: 'TwitterIcon'
+      data(){
+        return {
+          name: "TwitterIconBig"
+        }
+      }
     }
 </script>
 
 <template>
     <svg
   xmlns="http://www.w3.org/2000/svg"
-  class="h-5 w-5"
+  class="h-12 w-12"
   fill="currentColor"
   viewBox="0 0 24 24">
   <path

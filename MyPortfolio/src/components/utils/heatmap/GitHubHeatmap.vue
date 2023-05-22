@@ -1,6 +1,6 @@
 <template>
     <div class="heatmap" className="pl-4 pr-4">
-        <CalendarHeatmap :tooltip="false" :values="heatmapData" :end-date="heatmapEndDate" :range-color="heatmapColors" :max="heatmapMaxCount"/>
+        <CalendarHeatmap :vertical="vert" :tooltip="false" :values="heatmapData" :end-date="heatmapEndDate" :range-color="heatmapColors" :max="heatmapMaxCount"/>
   </div>
 </template>
 
@@ -28,7 +28,12 @@
                 this.heatmapEndDate= today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
             }
         },
-
+        props:{
+            vert:{
+                type: Boolean,
+                default: false
+            }
+        },
         created(){
             this.getNow();
         },
