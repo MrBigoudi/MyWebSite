@@ -21,7 +21,7 @@
         <span class="text-light-coral font-bold">Ongoing</span> projects
       </h1>
 
-      <div class="flex flex-row justify-center gap-0 w-full px-12"> <!-- list of projects -->
+      <div class="flex flex-row justify-center gap-0 w-full md:h-164 h-128 px-12"> <!-- list of projects -->
         <Project name="Game Engine" link="https://github.com/MrBigoudi/BigoudiEngine" desc="A game engine built from scratch" 
           image="" alter="preview of the game engine"
           class="bg-light-coral"/>
@@ -44,7 +44,7 @@
       </h1>
 
       <div class="flex flex-col"><!-- list of projects -->
-        <div class="flex flex-row justify-center gap-0 w-full px-12"> 
+        <div class="flex flex-row justify-center gap-0 w-full md:h-164 h-128 px-12"> 
           <Project name="Portfolio" link="https://github.com/MrBigoudi/MyWebSite" desc="My portfolio website" 
             image="/src/assets/projects/projectWebSite.png" alter="preview of my portfolio"
             class="bg-light-coral"/>
@@ -55,7 +55,7 @@
             image="/src/assets/projects/projectRayCaster.png" alter="preview of the ray caster"
             class="bg-light-coral"/>
         </div>
-        <div class="flex flex-row justify-center gap-0 w-full px-12"> 
+        <div class="flex flex-row justify-center gap-0 w-full md:h-164 h-128 px-12"> 
           <Project name="TinyC Compiler" link="https://github.com/MrBigoudi/PetitCCompiler" desc="A c compiler built in OCaml" 
             image="/src/assets/projects/projectCompiler.png" alter="preview of the compiler"
             class="bg-dark-coral"/>
@@ -66,7 +66,7 @@
             image="/src/assets/projects/projectPygames.png" alter="preview of one of the games"
             class="bg-dark-coral"/>
         </div>
-        <div class="flex flex-row justify-center gap-0 w-full px-12"> 
+        <div class="flex flex-row justify-center gap-0 w-full md:h-164 h-128 px-12"> 
           <Project name="Vector Images Comparator" link="https://github.com/MrBigoudi/CompareVgImages" desc="A tool built over the learnOcaml platform to correct exercices using images" 
             image="/src/assets/projects/projectVgImages.png" alter="preview of the learnOcaml interface"
             class="bg-light-coral"/>
