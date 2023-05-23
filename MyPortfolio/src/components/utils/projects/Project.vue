@@ -8,11 +8,11 @@
             }
         },
         props:{
-            name:  "",
+            name: "",
             link: "",
-            image: "",
+            image:"",
             alter:"",
-            desc:"",
+            desc: "",
         },
         components: {
             GithubIcon,
@@ -21,22 +21,20 @@
 </script>
 
 <template>
-    <div class="flex flex-col items-center px-0.5
-        w-1/3 h-full pt-4
+    <a :href="link" class="flex flex-col items-center px-0.5 text-center
+        w-1/3 h-128 pt-4 hover:font-bold hover:border-white border-2 border-transparent
         "> <!-- project container -->
-        <div class="w-full h-2/3 px-1 "> <!-- project image -->
-            <img :src="image?image:`/src/assets/projects/canvas.png`" :alt="alter" />
+        <div class="w-full h-2/3 px-1"> <!-- project image -->
+            <img :src="image?image:`/src/assets/projects/projectDefault.png`" :alt="alter" />
         </div>
-        <div class="text-2xl font-bold mt-6"> <!-- project title -->
-            {{ name }}
+
+        <div class="flex flex-col items-center text-center h-full mb-4">
+             <div class="text-4xl font-bold mt-6"> <!-- project title -->
+                {{ name }}
+            </div>
+            <div class="text-2xl mt-3 pb-8"> <!-- project description -->
+                {{ desc }}
+            </div>
         </div>
-        <div class="text-center mt-3"> <!-- project description -->
-            {{ desc }}
-        </div>
-        <div class="mt-auto pb-4 flex items-center justify-evenly"> <!-- project links -->
-            <a :href="link">
-                <GithubIcon />
-            </a>
-        </div>
-    </div>
+    </a>
 </template>
