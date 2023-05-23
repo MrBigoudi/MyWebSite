@@ -26,10 +26,12 @@ module.exports = {
         'light-leaf-green': '#4D982C',
         'light-coral': '#FF7F50',
         'dark-coral': '#FF6347',
+        'darker-coral': '#ff4d2e',
         'light-gray': '#BCBCBC',
       },
       height: {
         '128': '32rem',
+        '164': '40rem',
         '256': '64rem',
       }
     }

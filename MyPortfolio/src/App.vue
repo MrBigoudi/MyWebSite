@@ -40,10 +40,10 @@
         bg-japanese-city bg-cover bg-center bg-no-repeat">
     <Navbar @update-height="getNavBarHeight" />
     <Home :nav-height="navHeight"/>
-    <About />
-    <Projects class="md:mb-48 mb-32" />
-    <Resume />
-    <Contact />
+    <About class="pt-16" />
+    <Projects class="pt-16 md:mb-48 mb-32" />
+    <Resume class="pt-16" />
+    <Contact class="pt-16" />
     <Footbar />
   </main>
 </template>
