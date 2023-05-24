@@ -25,7 +25,7 @@
         w-1/3 h-full pt-4 hover:font-bold hover:border-white border-2 border-transparent group
         "> <!-- project container -->
         <div class="w-full h-2/3 px-1"> <!-- project image -->
-            <img :src="image?image:`/src/assets/projects/projectDefault.png`" :alt="alter" />
+            <img :src="image?image:`/projects/projectDefault.png`" :alt="alter" />
         </div>
 
         <div class="flex flex-col items-center text-center h-full mb-4 mt-6">
