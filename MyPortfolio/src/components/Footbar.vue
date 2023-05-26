@@ -24,11 +24,11 @@
 <template>
   <footer class="bottom-0 w-full flex justify-between items-center py-5 bg-black italic">
 
-    <div class="ml-10">
-      Designed and Developed <br class="md:hidden"/> by Yannis Kedadry
+    <div class="ml-10 md:block hidden">
+      Designed and Developed by Yannis Kedadry
     </div>
 
-    <div class="">
+    <div class="md:pl-0 pl-8">
         Copyright &copy; 2023 <span class="not-italic">YK</span>
     </div>
 

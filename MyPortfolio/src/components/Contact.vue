@@ -31,7 +31,7 @@
 
       <nav class="flex md:flex-row flex-col items-center justify-center w-full md:gap-0 gap-12"> <!-- links -->
 
-        <div class="flex items-center md:w-1/2 w-full md:justify-end justify-center md:gap-8 md:pr-24">
+        <div class="flex md:flex-row flex-col items-center md:w-1/2 w-full md:justify-end justify-center md:gap-8 gap-12 md:pr-24">
 
           <a :href="github" 
             class="group hover:text-dark-coral w-2/5">
@@ -51,21 +51,21 @@
           
         </div>
 
-        <div class="flex items-center md:w-1/2 w-full md:justify-start justify-center md:gap-8 md:pl-24">
-
-          <a :href="insta" 
-            class="group hover:text-dark-coral w-2/5">
-            <div class="flex items-center gap-4 md:justify-start justify-center">
-              <InstaIconBig />
-              <h2 class="text-3xl text-light-coral group-hover:text-dark-coral group-hover:font-bold">Instagram</h2>
-            </div>
-          </a>
+        <div class="flex md:flex-row flex-col items-center md:w-1/2 w-full md:justify-start justify-center md:gap-8 gap-12 md:pl-24">
 
           <a :href="twitch" 
             class="group hover:text-dark-coral w-2/5">
             <div class="flex items-center gap-4 md:justify-start justify-center">
               <TwitchIconBig />
               <h2 class="text-3xl text-light-coral group-hover:text-dark-coral group-hover:font-bold">Twitch</h2>
+            </div>
+          </a>
+
+          <a :href="insta" 
+            class="group hover:text-dark-coral w-2/5">
+            <div class="flex items-center gap-4 md:justify-start justify-center">
+              <InstaIconBig />
+              <h2 class="text-3xl text-light-coral group-hover:text-dark-coral group-hover:font-bold">Instagram</h2>
             </div>
           </a>
 

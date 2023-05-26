@@ -13,13 +13,13 @@ export default {
 <template>
   <section id="home" class="md:pt-48 pt-24 md:mb-96 mb-48" :style="{ marginTop: navHeight }">
 
-    <div class="flex md:flex-row flex-col-reverse justify-center md:gap-32 items-center w-full">
+    <div class="flex md:flex-row flex-col-reverse justify-center md:gap-32 md:px-12 items-center w-full">
 
 
-      <div class="flex flex-col items-start md:w-1/2 w-3/4 
+      <div class="flex flex-col items-start md:w-5/12 w-3/4 
          md:mt-24 mt-16 md:pr-12">
 
-        <div class="md:text-8xl text-7xl font-bold md:mb-48 mb-16 self-center">
+        <div class="md:text-8xl text-7xl font-bold md:mb-32 mb-16 self-center">
           Who am <span class="text-light-coral">I</span> ?
         </div>
 
@@ -35,14 +35,14 @@ export default {
             <strong class="text-dark-coral font-bold">video games</strong>, 
             doing a lot of <strong class="text-dark-coral font-bold">sport</strong> and, 
             as a <strong class="text-dark-coral font-bold">vegan</strong>,
-            especially love <strong class="text-dark-coral font-bold">nature</strong> and going outside for 
+            I especially love <strong class="text-dark-coral font-bold">nature</strong> and going outside for 
             <strong class="text-dark-coral font-bold">walks</strong></p>
         </div>
 
       </div>
 
 
-      <div class="md:w-1/2 w-3/4 flex justify-center">
+      <div class="md:w-1/3 w-3/4 flex justify-center">
         <img src="@/assets/homeImage.png" class="h-auto md:w-100" alt="picture of myself" />
       </div>
 
