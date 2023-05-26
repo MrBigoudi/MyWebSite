@@ -80,7 +80,7 @@
 
     <button @click="toggleMenu()" class="md:hidden ml-auto mr-4 h-full text-center text-dark-coral
       flex justify-end scroll-smooth h-full items-center px-4 focus:outline-none" >
-      <i class="material-icons text-4xl">menu</i>
+      <i class="material-icons text-2xl">menu</i>
     </button>
 
     <nav v-if="showMenu" class="md:hidden flex flex-col justify-evenly items-center gap-3 w-full 
