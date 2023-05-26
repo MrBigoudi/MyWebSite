@@ -12,13 +12,20 @@ run(){
     cd ..
 }
 
+deploy(){
+    cd ${dir}
+    firebase deploy
+    cd ..
+}
+
 # parse arguments
 option=$1
 case $option in
     "--dev" )
         run "dev";;
     "--build" )
-        run "build";;
+        run "build"
+        deploy;;
     * )
         echo "usage : $0 <option>"
         echo
