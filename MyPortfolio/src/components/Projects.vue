@@ -17,7 +17,7 @@
 
     <div class="flex flex-col items-center mb-32"> <!-- ongoing project -->
 
-      <h1 class="text-6xl md:mb-12 mb-16"> <!-- title of the container -->
+      <h1 class="md:text-6xl text-4xl text-center md:mb-12 mb-16"> <!-- title of the container -->
         <span class="text-light-coral font-bold">Ongoing</span> projects
       </h1>
 
@@ -39,7 +39,7 @@
 
     <div class="flex flex-col items-center"> <!-- finished projects -->
 
-      <h1 class="text-6xl md:mb-12 mb-16"> <!-- title of the container -->
+      <h1 class="md:text-6xl text-4xl text-center md:mb-12 mb-16"> <!-- title of the container -->
         <span class="text-light-coral font-bold">Finished</span> projects
       </h1>
 
